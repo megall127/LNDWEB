@@ -1,0 +1,58 @@
+{
+  "name": "app-web-lnd",
+  "homepage": "https://leandrotestes.git.digital/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/supabase-js": "^2.21.0",
+    "@syncfusion/ej2-react-calendars": "^20.2.40",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "googleapis": "^105.0.0",
+    "moment": "^2.29.4",
+    "primeflex": "^3.2.1",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.3.0",
+    "react": "^18.2.0",
+    "react-agenda": "^0.0.8",
+    "react-big-calendar": "^1.5.0",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^18.2.0",
+    "react-google-calendar-api": "^2.0.3",
+    "react-loader-spinner": "^5.3.4",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "6",
+    "react-scripts": "5.0.1",
+    "rrule": "^2.7.2",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
